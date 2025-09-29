@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://uwjota.vercel.app/site',
     images: [
       {
-        url: '/fotojoao.webp',
+        url: '/fotodojoao.webp',
         width: 1200,
         height: 630,
         alt: 'uwjota - Frontend Developer',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     title: 'UWJOTA',
     description: 'Conheça um pouco sobre mim.',
-    images: ['/fotojoao.webp'],
+    images: ['/fotodojoao.webp'],
   },
 }
 

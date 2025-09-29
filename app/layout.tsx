@@ -56,7 +56,7 @@ export const metadata = {
     description: 'Frontend Developer especializado em React, TypeScript, Next.js e desenvolvimento de interfaces modernas. Transforme suas ideias em experiências digitais incríveis.',
     images: [
       {
-        url: '/fotojoao.webp',
+        url: '/fotodojoao.webp',
         width: 1200,
         height: 630,
         alt: 'uwjota - Frontend Developer',
@@ -67,7 +67,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'UWJOTA',
     description: 'Frontend Developer especializado em React, TypeScript, Next.js e desenvolvimento de interfaces modernas.',
-    images: ['/fotojoao.webp'],
+    images: ['/fotodojoao.webp'],
     creator: '@uwjota',
   },
   icons: {
