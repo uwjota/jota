@@ -1,0 +1,20 @@
+{
+  "name": "João Marcelo - Desenvolvedor Full Stack",
+  "short_name": "uwjota",
+  "description": "Desenvolvedor Full Stack especializado em automações, desenvolvimento de sites modernos e soluções audiovisuais",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/iconj.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "productivity", "developer"],
+  "lang": "pt-BR",
+  "dir": "ltr"
+}

@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --primary: 255, 77, 0;
+  --primary-foreground: 0, 0, 0;
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+/* Remover efeito de seleção de texto */
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Permitir seleção apenas em inputs e textareas */
+input, textarea {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Desabilitar drag de imagens */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+/* Permitir interação com imagens em botões e links */
+button img, a img {
+  pointer-events: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.overflow-y-auto::-webkit-scrollbar,
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overflow-y-auto,
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dark {
+  --primary: 255, 77, 0;
+  --primary-foreground: 0, 0, 0;
+}
+
+@layer utilities {
+  .noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+  
+  /* Animação leve de flutuar */
+  @keyframes float-soft {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+  }
+  .animate-float-soft {
+    animation: float-soft 3.5s ease-in-out infinite;
+  }
+
+  /* Animação de fade in suave */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}
+
+/* Cursor personalizado branco - apenas desktop */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 0.05s ease-out;
+  mix-blend-mode: difference;
+  display: none; /* Escondido por padrão */
+}
+
+.custom-cursor-follower {
+  display: none;
+}
+
+.cursor-hover {
+  transform: scale(2.5);
+  background-color: rgba(255, 255, 255, 1);
+  mix-blend-mode: difference;
+  transition: all 0.1s ease-out;
+}
+
+.cursor-follower-hover {
+  display: none;
+}
+
+/* Mostrar cursor apenas em desktop (telas maiores que 1024px) */
+@media (min-width: 1024px) and (pointer: fine) {
+  .custom-cursor {
+    display: block;
+  }
+}
+
