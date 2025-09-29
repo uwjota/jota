@@ -152,7 +152,7 @@ export default function Section({
       <motion.div
         className="relative w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96"
         initial={{ scale: 0.98 }}
-        animate={isActive ? { scale: 1, y: id === 'about' ? [0, -2, 0] : 0, rotateX: 0, rotateY: 0 } : { scale: 0.98 }}
+        animate={isActive ? { scale: 1, y: id === 'about' ? [0, -8, 0] : 0, rotateX: 0, rotateY: 0 } : { scale: 0.98 }}
         transition={{ duration: 0.4, y: { duration: 3, repeat: Infinity, ease: 'linear' } }}
         
       >
@@ -160,13 +160,13 @@ export default function Section({
         {/* Imagem circular simples */}
         <div className="absolute inset-0 p-0 rounded-full z-10">
           <motion.div
-            className="w-full h-full rounded-full overflow-hidden border-4 border-white"
+            className="w-full h-full rounded-full overflow-hidden"
           >
             <Image 
-              src="/fotojoao.webp" 
+              src="/fotodojoao.webp" 
               alt="João Marcelo Venancio Ribeiro - Desenvolvedor Full Stack especializado em automações, sites e soluções audiovisuais" 
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               className="w-full h-full object-cover"
               priority
               draggable={false}

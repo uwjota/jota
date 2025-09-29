@@ -12,12 +12,15 @@ import {
   SiFigma,
   SiHtml5,
   SiCss3,
-  SiTailwindcss
+  SiTailwindcss,
+  SiBootstrap
 } from 'react-icons/si'
 import { 
   MdVideoLibrary,
   MdAdsClick,
-  MdPalette
+  MdPalette,
+  MdSmartToy,
+  MdShoppingCart
 } from 'react-icons/md'
 
 interface LanguageIconProps {
@@ -42,7 +45,10 @@ export function LanguageIcon({ icon, className = "w-8 h-8" }: LanguageIconProps)
     ads: <MdAdsClick className={className} />,
     html: <SiHtml5 className={className} />,
     css: <SiCss3 className={className} />,
-    tailwind: <SiTailwindcss className={className} />
+    tailwind: <SiTailwindcss className={className} />,
+    bootstrap: <SiBootstrap className={className} />,
+    ai: <MdSmartToy className={className} />,
+    ecommerce: <MdShoppingCart className={className} />
   }
 
   return iconMap[icon] || <div className={className} />

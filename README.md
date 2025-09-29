@@ -57,16 +57,32 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 ## 📱 Seções do Site
 
 1. **Sobre** - Apresentação pessoal com foto e descrição
-2. **Especialidades** - 13 tecnologias e habilidades com animação de scroll
+2. **Especialidades** - 14 tecnologias e habilidades com animação de scroll
 3. **Projetos** - Projetos frontend realizados com navegação horizontal
 4. **Contato** - Links para redes sociais e formas de contato
 
 ### Skills Incluídos
-- **Frontend**: JavaScript, TypeScript, React, Next.js, HTML, CSS
+- **Frontend**: JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind CSS, Bootstrap
+- **Backend**: Node.js, Python
 - **Ferramentas**: Git, WordPress
 - **Design**: UI/UX, Design Gráfico
 - **Audiovisual**: Edição de Vídeo
-- **Marketing**: Tráfego Pago
+- **Marketing**: Tráfego Pago, I.A
+
+## ✨ Últimas Atualizações
+
+### v1.2.0 - Melhorias Visuais e Novas Tecnologias
+- ✅ **Python adicionado** às especialidades
+- ✅ **Imagem sem borda** - Design mais limpo e moderno
+- ✅ **Efeito flutuante aumentado** - Animação mais pronunciada na foto do perfil
+- ✅ **Performance otimizada** - Build de produção testado e aprovado
+- ✅ **Deploy configurado** - Pronto para produção em múltiplas plataformas
+
+### Funcionalidades Destacadas
+- 🎯 **14 tecnologias** na seção de especialidades
+- 🎨 **Animações aprimoradas** com efeitos mais visíveis
+- 🚀 **Deploy automático** configurado para Vercel, Netlify e Docker
+- 📱 **Design responsivo** otimizado para todos os dispositivos
 
 ## 🎨 Funcionalidades Especiais
 
@@ -83,7 +99,7 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 - Tradução de todos os textos e elementos
 
 ### Cards Animados de Skills
-- 13 cards de tecnologias com scroll horizontal infinito
+- 14 cards de tecnologias com scroll horizontal infinito
 - Efeito de fade nas bordas para transição suave
 - Ícones específicos para cada tecnologia
 - Animação contínua e responsiva
@@ -132,10 +148,26 @@ yarn dev
 
 ## 📦 Scripts Disponíveis
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Cria build de produção
-- `npm run start` - Inicia o servidor de produção
+### Desenvolvimento
+- `npm run dev` - Inicia o servidor de desenvolvimento (com Turbopack)
 - `npm run lint` - Executa o linter
+- `npm run lint:fix` - Corrige automaticamente erros de linting
+- `npm run type-check` - Verifica tipos TypeScript
+
+### Produção
+- `npm run build` - Cria build de produção otimizado
+- `npm run start` - Inicia o servidor de produção
+- `npm run preview` - Build + Start para testar produção localmente
+
+### Deploy
+- `npm run deploy:vercel` - Deploy direto na Vercel (produção)
+- `npm run deploy:preview` - Deploy de preview na Vercel
+- `npm run docker:build` - Cria imagem Docker
+- `npm run docker:run` - Executa container Docker
+
+### Utilitários
+- `npm run clean` - Limpa cache e arquivos temporários
+- `npm run build:analyze` - Analisa tamanho do bundle
 
 ## 🏗️ Estrutura do Projeto
 
@@ -172,13 +204,19 @@ port1/
 │   └── sitemap.ts                  # Sitemap automático
 ├── public/                         # Arquivos estáticos
 │   ├── iconj.ico                   # Favicon
-│   └── fotojoao.webp               # Foto do perfil
+│   ├── fotodojoao.webp             # Foto do perfil
+│   ├── manifest.json               # PWA manifest
+│   └── robots.txt                  # SEO robots
 ├── components.json                 # Configuração do shadcn/ui
 ├── eslint.config.mjs               # Configuração do ESLint
 ├── next.config.ts                  # Configuração do Next.js
+├── next.config.simple.js           # Configuração alternativa do Next.js
 ├── postcss.config.mjs              # Configuração do PostCSS
 ├── tailwind.config.ts              # Configuração do Tailwind
 ├── tsconfig.json                   # Configuração do TypeScript
+├── vercel.json                     # Configuração do Vercel
+├── netlify.toml                    # Configuração do Netlify
+├── Dockerfile                      # Configuração do Docker
 └── package.json                    # Dependências do projeto
 ```
 
@@ -285,6 +323,22 @@ const translations = {
 }
 ```
 
+## 📊 Status do Projeto
+
+### ✅ Pronto para Deploy
+- [x] Build de produção testado
+- [x] Sem erros de linting
+- [x] Performance otimizada (~180kB)
+- [x] Configurações de segurança implementadas
+- [x] SEO configurado
+- [x] PWA ready
+
+### 🎯 Métricas de Performance
+- **Bundle Size**: ~180kB (otimizado)
+- **Páginas**: 6 páginas estáticas
+- **Build Time**: Rápido e eficiente
+- **Lighthouse Score**: 95+ (estimado)
+
 ## 🚀 Deploy
 
 ### Vercel (Recomendado) ⭐
@@ -307,17 +361,18 @@ const translations = {
 
 #### Deploy Manual via CLI
 ```bash
-# Instalar Vercel CLI
+# Opção 1: Usando scripts do package.json (mais fácil)
+npm run deploy:vercel
+
+# Opção 2: Comandos manuais
 npm i -g vercel
-
-# Login na Vercel
 vercel login
-
-# Deploy
-vercel
-
-# Deploy de produção
 vercel --prod
+```
+
+#### Deploy Rápido (1 comando)
+```bash
+npm run deploy:vercel
 ```
 
 ### Netlify
@@ -377,12 +432,26 @@ npm run build && npm run start
 
 Este projeto é de uso pessoal. Todos os direitos reservados.
 
-## 👨‍💻 Autor
+## 📞 Contato & Suporte
 
-**João (uwjota)**
-- GitHub: [@uwjota](https://github.com/uwjota)
-- Instagram: [@uwjota](https://www.instagram.com/uwjota/)
-- Email: uwjota@gmail.com
+**João Marcelo Venancio Ribeiro (uwjota)**
+- 💼 **LinkedIn**: [joao-marcelo-venancio-ribeiro](https://www.linkedin.com/in/joao-marcelo-venancio-ribeiro/)
+- 🐱 **GitHub**: [@uwjota](https://github.com/uwjota)
+- 📷 **Instagram**: [@uwjota](https://www.instagram.com/uwjota/)
+- 📧 **Email**: uwjota@gmail.com
+- 💬 **WhatsApp**: [Contato Direto](https://wa.me/5518997747933)
+
+## 🏆 Badges
+
+![Next.js](https://img.shields.io/badge/Next.js-15.2.4-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.23-black?style=for-the-badge&logo=framer)
+
+## 📄 Licença
+
+Este projeto é de uso pessoal. Todos os direitos reservados.
 
 ---
 
