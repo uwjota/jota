@@ -3,20 +3,30 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'UWJOTA',
-  description: 'Conheça um pouco sobre mim.',
+  description: 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
   keywords: [
+    'João Marcelo',
+    'uwjota',
+    'portfólio',
     'projetos',
-    'desenvolvimento frontend',
+    'desenvolvimento de sites',
+    'automações',
+    'soluções audiovisuais',
     'React',
     'TypeScript',
     'Next.js',
-    'interfaces modernas',
-    'uwjota',
-    'João Marcelo'
+    'JavaScript',
+    'Python',
+    'C',
+    'desenvolvimento web',
+    'UI/UX',
+    'design gráfico',
+    'edição de vídeo',
+    'tráfego pago'
   ],
   openGraph: {
     title: 'UWJOTA',
-    description: 'Conheça um pouco sobre mim.',
+    description: 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
     url: 'https://uwjota.vercel.app/site',
     images: [
       {
@@ -29,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'UWJOTA',
-    description: 'Conheça um pouco sobre mim.',
+    description: 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
     images: ['/fotodojoao.webp'],
   },
 }

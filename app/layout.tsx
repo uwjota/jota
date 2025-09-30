@@ -19,19 +19,27 @@ export const metadata = {
     default: 'UWJOTA',
     template: 'UWJOTA'
   },
-  description: 'Frontend Developer especializado em React, TypeScript, Next.js e desenvolvimento de interfaces modernas. Transforme suas ideias em experiências digitais incríveis.',
+  description: 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
   keywords: [
+    'João Marcelo',
+    'uwjota',
+    'desenvolvimento de sites',
+    'automações',
+    'soluções audiovisuais',
     'frontend developer',
-    'desenvolvimento frontend',
     'React',
     'TypeScript',
     'Next.js',
     'JavaScript',
-    'UI/UX',
+    'Python',
+    'C',
     'desenvolvimento web',
-    'interfaces modernas',
-    'uwjota',
-    'João Marcelo'
+    'UI/UX',
+    'design gráfico',
+    'edição de vídeo',
+    'tráfego pago',
+    'WordPress',
+    'e-commerce'
   ],
   authors: [{ name: 'João Marcelo Venancio Ribeiro' }],
   creator: 'João Marcelo Venancio Ribeiro',
@@ -53,7 +61,7 @@ export const metadata = {
     url: 'https://uwjota.vercel.app',
     siteName: 'UWJOTA',
     title: 'UWJOTA',
-    description: 'Frontend Developer especializado em React, TypeScript, Next.js e desenvolvimento de interfaces modernas. Transforme suas ideias em experiências digitais incríveis.',
+    description: 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
     images: [
       {
         url: '/fotodojoao.webp',
@@ -66,7 +74,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'UWJOTA',
-    description: 'Frontend Developer especializado em React, TypeScript, Next.js e desenvolvimento de interfaces modernas.',
+    description: 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
     images: ['/fotodojoao.webp'],
     creator: '@uwjota',
   },

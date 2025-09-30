@@ -1,8 +1,8 @@
-# uwjota - Frontend Developer
+# uwjota - Developer
 
-Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tailwind CSS. Apresenta habilidades em desenvolvimento frontend, design e soluções audiovisuais.
+Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tailwind CSS. João Marcelo oferece serviços de desenvolvimento de sites, automações e soluções audiovisuais para empresas.
 
-> **Desenvolvedor**: João Marcelo Venancio Ribeiro  
+> **Desenvolvedor**: uwjota
 > **LinkedIn**: [joao-marcelo-venancio-ribeiro](https://www.linkedin.com/in/joao-marcelo-venancio-ribeiro/)  
 > **GitHub**: [uwjota](https://github.com/uwjota)
 
@@ -17,7 +17,7 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 - **Performance Otimizada**: Carregamento rápido e otimizado para SEO
 - **Dark Mode**: Tema escuro elegante com efeitos de glassmorphism
 - **Scroll Inteligente**: Navegação por seções com indicadores visuais
-- **SEO Avançado**: Metadados completos, dados estruturados e sitemap
+- **SEO Otimizado**: Keywords estratégicas, metadados completos e sitemap automático
 - **Segurança**: Headers de segurança, CSP e proteções implementadas
 - **PWA Ready**: Manifest e configurações para Progressive Web App
 - **Páginas de Erro**: 404 personalizada e tratamento de erros globais
@@ -46,7 +46,10 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 - **PostCSS** - Processamento de CSS
 - **Autoprefixer** - Prefixos CSS automáticos
 
-### Performance & Segurança
+### SEO & Performance
+- **Keywords Estratégicas** - Otimizadas para serviços oferecidos
+- **Metadados Completos** - Open Graph, Twitter Cards, Schema.org
+- **Sitemap Automático** - Geração dinâmica para indexação
 - **Headers de Segurança** - X-Frame-Options, CSP, HSTS
 - **Otimização de Animações** - Detecção de hardware e throttling
 - **Lazy Loading** - Carregamento sob demanda de componentes
@@ -57,19 +60,27 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 ## 📱 Seções do Site
 
 1. **Sobre** - Apresentação pessoal com foto e descrição
-2. **Especialidades** - 14 tecnologias e habilidades com animação de scroll
+2. **Especialidades** - 15 tecnologias e habilidades com animação de scroll
 3. **Projetos** - Projetos frontend realizados com navegação horizontal
 4. **Contato** - Links para redes sociais e formas de contato
 
 ### Skills Incluídos
 - **Frontend**: JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind CSS, Bootstrap
-- **Backend**: Node.js, Python
+- **Backend**: Node.js, Python, C
 - **Ferramentas**: Git, WordPress
 - **Design**: UI/UX, Design Gráfico
 - **Audiovisual**: Edição de Vídeo
 - **Marketing**: Tráfego Pago, I.A
 
 ## ✨ Últimas Atualizações
+
+### v1.3.0 - Atualizações de Conteúdo e SEO
+- ✅ **C adicionado** às especialidades (15 tecnologias total)
+- ✅ **Texto personalizado** atualizado na página inicial
+- ✅ **SEO otimizado** com novas keywords e descrições
+- ✅ **Metadados atualizados** para compartilhamento em redes sociais
+- ✅ **Imagem de compartilhamento** atualizada
+- ✅ **Descrições profissionais** focadas nos serviços oferecidos
 
 ### v1.2.0 - Melhorias Visuais e Novas Tecnologias
 - ✅ **Python adicionado** às especialidades
@@ -79,10 +90,12 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 - ✅ **Deploy configurado** - Pronto para produção em múltiplas plataformas
 
 ### Funcionalidades Destacadas
-- 🎯 **14 tecnologias** na seção de especialidades
+- 🎯 **15 tecnologias** na seção de especialidades (incluindo Python e C)
 - 🎨 **Animações aprimoradas** com efeitos mais visíveis
 - 🚀 **Deploy automático** configurado para Vercel, Netlify e Docker
 - 📱 **Design responsivo** otimizado para todos os dispositivos
+- 🔍 **SEO otimizado** para melhor posicionamento nos buscadores
+- 📢 **Metadados atualizados** para compartilhamento profissional
 
 ## 🎨 Funcionalidades Especiais
 
@@ -99,7 +112,7 @@ Site pessoal moderno e responsivo desenvolvido com Next.js 15, TypeScript e Tail
 - Tradução de todos os textos e elementos
 
 ### Cards Animados de Skills
-- 14 cards de tecnologias com scroll horizontal infinito
+- 15 cards de tecnologias com scroll horizontal infinito
 - Efeito de fade nas bordas para transição suave
 - Ícones específicos para cada tecnologia
 - Animação contínua e responsiva

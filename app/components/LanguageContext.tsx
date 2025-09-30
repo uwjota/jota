@@ -26,7 +26,7 @@ const translations = {
     
     // Seção About
     'about.title': 'Olá...',
-    'about.content': 'Eu sou o João, tenho 20 anos e ajudo empresas. Com sites, automações e soluções audiovisuais!',
+    'about.content': 'Eu sou o João, e ajudo empresas. Com sites, automações e soluções audiovisuais!',
     'about.button': 'Ver Projetos',
     'about.contact': 'Fale comigo',
     
@@ -49,7 +49,7 @@ const translations = {
     
     // Seção Contact
     'contact.title': 'Redes Sociais',
-    'contact.content': 'Quer tirar uma ideia do papel? Fala comigo!',
+    'contact.content': 'Quer tirar uma ideia do papel? Fale comigo!',
   },
   en: {
     // Home page
@@ -57,7 +57,7 @@ const translations = {
     
     // About section
     'about.title': 'Hello...',
-    'about.content': 'I am João, I am 20 years old and I help companies. With websites, automations and audiovisual solutions!',
+    'about.content': 'I am João, and I help companies. With websites, automations and audiovisual solutions!',
     'about.button': 'View Projects',
     'about.contact': 'Talk to me',
     

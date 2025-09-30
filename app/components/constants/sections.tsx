@@ -25,6 +25,7 @@ export const useSections = () => {
         { name: 'Next.js', icon: 'nextjs' },
         { name: 'Node.js', icon: 'nodejs' },
         { name: 'Python', icon: 'python' },
+        { name: 'C', icon: 'c' },
         { name: 'Bootstrap', icon: 'bootstrap' },
         { name: 'Tailwind', icon: 'tailwind' },
         { name: 'WordPress', icon: 'wordpress' },
