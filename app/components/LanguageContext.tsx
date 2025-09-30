@@ -40,11 +40,11 @@ const translations = {
     'projects.title': 'Projetos',
     'projects.content': 'Alguns dos meus projetos desenvolvidos:',
     'projects.landing.title': 'Landing Page',
-    'projects.landing.description': 'Landing page moderna e responsiva para consultores de imóveis, com formulário que envia os dados preenchidos diretamente para uma planilha.',
+    'projects.landing.description': 'Desenvolvida para capturação de leads e enviado para planilha.',
     'projects.cardapio.title': 'Cardapio Digital',
-    'projects.cardapio.description': 'Ele conta com um carrinho de compras salvo no LocalStorage e envia os pedidos diretamente para o WhatsApp com todos os detalhes necessários do pedido.',
+    'projects.cardapio.description': 'Utiliza LocalStorage para salvar o carrinho de compras e envia os pedidos diretamente para o WhatsApp.',
     'projects.visual.title': 'Identidade Visual',
-    'projects.visual.description': 'Trabalho criando um visual moderno e consistente para a @pradapayoficial, com cores, tipografia e elementos gráficos que destacam a marca e tornam o feed mais atrativo!',
+    'projects.visual.description': 'Identidade visual feita com elementos criados por I.A e realizada para um gateway de pagamentos.',
     'projects.swipe': '← Deslize para ver mais projetos →',
     
     // Seção Contact
@@ -71,11 +71,11 @@ const translations = {
     'projects.title': 'Projects',
     'projects.content': 'Some of my developed projects:',
     'projects.landing.title': 'Landing Page',
-    'projects.landing.description': 'Modern and responsive landing page for real estate consultants, with a form that sends the filled data directly to a spreadsheet.',
+    'projects.landing.description': 'Developed for lead capture and sent to spreadsheet.',
     'projects.cardapio.title': 'Digital Menu',
-    'projects.cardapio.description': 'It features a shopping cart saved in LocalStorage and sends orders directly to WhatsApp with all the necessary order details.',
+    'projects.cardapio.description': 'Uses LocalStorage to save the shopping cart and sends orders directly to WhatsApp.',
     'projects.visual.title': 'Visual Identity',
-    'projects.visual.description': 'Work creating a modern and consistent visual for @pradapayoficial, with colors, typography and graphic elements that highlight the brand and make the feed more attractive!',
+    'projects.visual.description': 'Visual identity made with elements created by A.I and developed for a payment gateway.',
     'projects.swipe': '← Swipe to see more projects →',
     
     // Contact section

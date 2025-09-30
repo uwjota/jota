@@ -46,7 +46,7 @@ export const useSections = () => {
         {
           title: t('projects.landing.title'),
           description: t('projects.landing.description'),
-          tech: ['React', 'Node.js', 'TypeScript', 'Tailwind'],
+          tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
           link: 'https://nathan-bay.vercel.app/'
         },
         {
